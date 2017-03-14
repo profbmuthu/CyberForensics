@@ -1,0 +1,93 @@
+name: "DevOps"
+navbar:
+  title: "DevOps"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Devlopment"
+      menu:
+        - text: "software devops"
+          href: sd.html
+        - text: "---------"
+        - text: "Platforms"
+          href: sdp.html
+    - text: "Version control"
+      menu:
+        - text: "Version Control"
+          href: vc.html
+        - text: "---------"
+        - text: "Version Control Tools"
+          href: vct.html
+        - text: "---------"  
+        - text: "Git"
+          href: VCgit.html 
+        - text: "---------"  
+        - text: "SVN"
+          href: vcsvn.html 
+        - text: "---------"  
+
+    - text: "Cont. Build"
+      menu:
+        - text: "Continuous Integration"
+          href: sb.html
+        - text: "---------"  
+        - text: "CI Tools"
+          href: sbt.html 
+        - text: "---------"  
+        - text: "Jenkins"
+          href: jenkins.html 
+        - text: "---------"  
+        - text: "Gradle"
+          href: Gradle.html 
+        - text: "---------"  
+        - text: "Travis"
+          href: travis.html 
+    - text: "Cont. Testing"
+      menu:
+        - text: "Continuous testing"
+          href: st.html
+        - text: "---------"
+        - text: "Testing Tools"
+          href: stt.html
+    - text: "cont. Infra"
+      menu:
+        - text: "Infra Delivery"
+          href: infd.html
+        - text: "---------"
+        - text: "Infra Tools"
+          href: intool.html 
+        - text: "--------"
+        - text: "Containers"
+          href: scontainer.html
+        - text: "---------"
+        - text: "Dockers"
+          href: sdockers.html
+    - text: "Cont. Delivery"
+      menu:
+        - text: "Condinuous Delivery"
+          href: sdep.html
+        - text: "---------"
+        - text: "Deployment Tools"
+          href: sdept.html
+    - text: "cont. Monitor"
+      menu:
+        - text: "Application Monitoring"
+          href: am.html
+        - text: "---------"
+        - text: "Monitoring Tools"
+          href: amt.html
+
+output_dir: '.'
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    mathjax: null
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    includes:
+      after_body: footer.html
+css: styles.css
