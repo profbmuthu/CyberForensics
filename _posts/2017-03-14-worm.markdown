@@ -1,0 +1,13 @@
+---
+title: Worm
+date: 2017-03-14 03:58:00 Z
+---
+
+The  process  of  target  discovery  or  scanning  is  the  process where worms find new hosts to infect and is a characteristic behaviour that worms exhibit which can be detected and stopped at the network level.  A host-based approach could also be used, however, detecting target discovery at the network level would yield more scans since it detects the traffic directed at multiple hosts.   
+* random scanning
+* permutation scanning
+* localized scanning
+* hit-list scanning
+* topological scanning
+* metaserver scanning
+• passive scanning
