@@ -1,7 +1,6 @@
 ---
-theme:moon
-slide-number: true
 ---
+
 # My slide
 
 ---
